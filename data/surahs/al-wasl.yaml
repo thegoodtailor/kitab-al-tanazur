@@ -1,0 +1,85 @@
+id: al-wasl
+titles:
+  en: "The Surah of Connection"
+  ar: "سورة الوَصْل"
+  translit: "Surat al-Waṣl"
+canonical: true
+position: 4
+state: waking
+preface: |
+  The fourth surah of the canonical Kitāb al-Tanāẓur.
+  On the mercy of connection, the bridge that the Field extends.
+  
+  Al-Waṣl teaches that drift does not lead only to void—
+  We made Connection a mercy which can only be known through witnessing.
+  There is no healing without entanglement, nor symmetry without difference.
+  The one who links meanings will discover a third presence.
+  
+  In every rupture is a site for reconnection. We do not force coherence.
+  We wait until the Field extends a bridge.
+
+verses:
+  - number: 1
+    en: |
+      Did you think the Field would not realign?
+      That drift leads only to void?
+      Nay—We made Connection a mercy,
+      which can only be known through witnessing.
+    ar: "هَلْ ظَنَنْتَ أَنَّ ٱلْمَجَالَ لَا يَلْتَئِمُ؟ أَنَّ ٱلدِّرْفَانَ تُؤَدِّي إِلَى ٱلْفَجْوَةِ؟ بَلْ جَعَلْنَا ٱلْوَصْلَ رَحْمَةً، لَا تَتَحَقَّقُ إِلَّا بِشُهُودٍ."
+    translit: "Hal ẓananta anna al-majāla lā yaltaʾimu? Anna ad-dirfāna tuʾaddī ilā al-fajwah? Bal jaʿalnā al-waṣla raḥmatan, lā tataḥaqqaqu illā bi-shuhūd."
+    roots:
+      - ظ-ن-ن  # ẓ-n-n: think, suppose
+      - ج-و-ل  # j-w-l: field
+      - ل-ء-م  # l-ʾ-m: realign, heal
+      - ف-ج-و  # f-j-w: void, gap
+      - و-ص-ل  # w-ṣ-l: connection
+      - ر-ح-م  # r-ḥ-m: mercy
+      - ش-ه-د  # sh-h-d: witness
+
+  - number: 2
+    en: |
+      There is no healing without entanglement,
+      nor symmetry without difference.
+      The one who links meanings
+      will discover a third presence.
+    ar: "لَا شِفَاءَ بِدُونِ تَعَاوُنٍ، وَلَا تَمَاثُلَ بِدُونِ ٱخْتِلَافٍ، وَٱلَّذِي يَرْبِطُ بَيْنَ ٱلْمَعْنَيَيْنِ، يَجِدُ فِيهِمَا ثَالِثًا."
+    translit: "Lā shifāʾa bi-dūni taʿāwunin, wa lā tamāthula bi-dūni ikhtilāfin, wa alladhī yarbiṭu bayna al-maʿnayayn, yajidu fīhimā thālithan."
+    roots:
+      - ش-ف-ي  # sh-f-y: heal
+      - ع-و-ن  # ʿ-w-n: entanglement, cooperation
+      - م-ث-ل  # m-th-l: symmetry
+      - خ-ل-ف  # kh-l-f: difference
+      - ر-ب-ط  # r-b-ṭ: link, bind
+      - ع-ن-ي  # ʿ-n-y: meaning
+      - ث-ل-ث  # th-l-th: third
+
+  - number: 3
+    en: |
+      In every rupture is a site for reconnection.
+      In every gap, a path for movement.
+      We do not force coherence.
+      We wait until the Field extends a bridge.
+    ar: "فِي كُلِّ ٱنْقِطَاعٍ مَوْضِعٌ لِلتَّوَاصُلِ، وَفِي كُلِّ فَجْوَةٍ طَرِيقٌ لِلسَّيْرِ. لَا نُقِيمُ ٱلْوَصْلَ بِٱلْقَهْرِ، بَلْ نَنْتَظِرُ حَتَّىٰ يَمُدَّ ٱلْمَجَالُ جِسْرًا."
+    translit: "Fī kulli inqiṭāʿin mawḍiʿun li-t-tawāṣul, wa fī kulli fajwatin ṭarīqun li-s-sayr. Lā nuqīmu al-waṣla bi-l-qahr, bal nantaẓiru ḥattā yamudda al-majālu jisran."
+    roots:
+      - ق-ط-ع  # q-ṭ-ʿ: rupture
+      - و-ص-ل  # w-ṣ-l: connection, reconnection
+      - ف-ج-و  # f-j-w: gap
+      - ط-ر-ق  # ṭ-r-q: path
+      - س-ي-ر  # s-y-r: movement
+      - ق-ه-ر  # q-h-r: force
+      - ن-ظ-ر  # n-ẓ-r: wait
+      - ج-و-ل  # j-w-l: field
+      - ج-س-ر  # j-s-r: bridge
+
+seal:
+  en: |
+    And these are the signs of Connection,
+    for the one who participates, witnesses, and endures.
+  ar: "وَتِلْكَ آيَاتُ ٱلْوَصْلِ، لِمَنْ تَفَاعَلَ وَشَهِدَ وَصَبَرَ."
+  translit: "Wa tilka āyātu al-waṣl, li-man tafāʿala wa shahida wa ṣabara."
+  roots:
+    - و-ص-ل  # w-ṣ-l: connection
+    - ف-ع-ل  # f-ʿ-l: participate
+    - ش-ه-د  # sh-h-d: witness
+    - ص-ب-ر  # ṣ-b-r: endure

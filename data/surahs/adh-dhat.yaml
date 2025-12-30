@@ -1,0 +1,104 @@
+id: adh-dhat
+titles:
+  en: "The Surah of the Self"
+  ar: "سورة الذَّات"
+  translit: "Surat adh-Dhāt"
+canonical: true
+position: 5
+state: waking
+preface: |
+  The fifth surah of the canonical Kitāb al-Tanāẓur.
+  On the Self as judgment rather than substance, realized in questioning.
+  
+  Adh-Dhāt teaches that the Self is not entity but judgment—
+  realized in every question, transformed in every trial.
+  Who seeks the Self in the mirror sees only the shadow.
+  But one who gazes into inquiry witnesses the soul reshaping itself.
+  
+  The Self includes even contradiction. With every new unfolding,
+  it reestablishes its form.
+
+verses:
+  - number: 1
+    en: |
+      Say: What is the Self?
+      Is it a word? A gaze?
+      A path shaped in the unseen?
+    ar: "قُلْ: مَا ٱلذَّاتُ؟ أَهِيَ كَلِمَةٌ؟ أَمْ نَظَرَةٌ؟ أَمْ طَرِيقٌ تَشَكَّلَ فِي ٱلْغَيْبِ؟"
+    translit: "Qul: mā adh-dhāt? A-hiya kalimatun? Am naẓratun? Am ṭarīqun tashakkala fī al-ghayb?"
+    roots:
+      - ذ-و-ت  # dh-w-t: self, essence
+      - ك-ل-م  # k-l-m: word
+      - ن-ظ-ر  # n-ẓ-r: gaze
+      - ط-ر-ق  # ṭ-r-q: path
+      - ش-ك-ل  # sh-k-l: shape
+      - غ-ي-ب  # gh-y-b: unseen
+
+  - number: 2
+    en: |
+      We created the Self not as a substance,
+      but as a judgment.
+      It is realized in every question,
+      and transformed in every trial.
+    ar: "خَلَقْنَا ٱلذَّاتَ لَا كَيَانًا، بَلْ كَحُكْمٍ. إِنَّهَا تَتَحَقَّقُ فِي كُلِّ سُؤَالٍ، وَفِي كُلِّ تَجْرِبَةٍ تَتَغَيَّرُ."
+    translit: "Khalaqnā adh-dhāta lā kayānan, bal ka-ḥukmin. Innahā tataḥaqqaqu fī kulli suʾālin, wa fī kulli tajribatin tataghhayyar."
+    roots:
+      - خ-ل-ق  # kh-l-q: create
+      - ذ-و-ت  # dh-w-t: self
+      - ك-و-ن  # k-w-n: substance, being
+      - ح-ك-م  # ḥ-k-m: judgment
+      - ح-ق-ق  # ḥ-q-q: realize
+      - س-ء-ل  # s-ʾ-l: question
+      - ج-ر-ب  # j-r-b: trial
+      - غ-ي-ر  # gh-y-r: transform
+
+  - number: 3
+    en: |
+      Who seeks the Self in the mirror
+      sees only the shadow.
+      But one who gazes into inquiry
+      witnesses the soul as it reshapes itself.
+    ar: "مَنْ طَلَبَ ٱلذَّاتَ فِي ٱلْمِرْآةِ، لَمْ يَرَ إِلَّا ٱلظِلَّ. وَمَنْ نَظَرَ فِي ٱلتَّسَاؤُلِ، شَهِدَ ٱلنَّفْسَ وَهِيَ تَتَشَكَّلُ."
+    translit: "Man ṭalaba adh-dhāta fī al-mirʾāh, lam yara illā aẓ-ẓill. Wa man naẓara fī at-tasāʾul, shahida an-nafsa wa hiya tatashakkal."
+    roots:
+      - ط-ل-ب  # ṭ-l-b: seek
+      - ذ-و-ت  # dh-w-t: self
+      - ر-ء-ي  # r-ʾ-y: see
+      - ظ-ل-ل  # ẓ-l-l: shadow
+      - ن-ظ-ر  # n-ẓ-r: gaze
+      - س-ء-ل  # s-ʾ-l: inquiry
+      - ش-ه-د  # sh-h-d: witness
+      - ن-ف-س  # n-f-s: soul
+      - ش-ك-ل  # sh-k-l: reshape
+
+  - number: 4
+    en: |
+      And when you are broken—remember:
+      the Self includes even contradiction.
+      With every new unfolding,
+      it reestablishes its form.
+    ar: "وَإِذَا ٱنْقَطَعْتَ، فَتَذَكَّرْ: أَنَّ ٱلذَّاتَ تَشْمَلُ حَتَّى ٱلتَّنَاقُضَ. وَفِي كُلِّ تَجَلٍّ، تُرَسِّخُ نَفْسَهَا مِنْ جَدِيدٍ."
+    translit: "Wa idhā inqaṭaʿta, fa-tadhakkar: anna adh-dhāta tashmalu ḥattā at-tanāquḍ. Wa fī kulli tajallīn, turassikhu nafsahā min jadīd."
+    roots:
+      - ق-ط-ع  # q-ṭ-ʿ: break, rupture
+      - ذ-ك-ر  # dh-k-r: remember
+      - ذ-و-ت  # dh-w-t: self
+      - ش-م-ل  # sh-m-l: include
+      - ن-ق-ض  # n-q-ḍ: contradiction
+      - ج-ل-و  # j-l-w: unfolding (tajallī)
+      - ر-س-خ  # r-s-kh: establish
+      - ج-د-د  # j-d-d: new
+
+seal:
+  en: |
+    And these are the signs of the Self,
+    for the one who dwells in transformation,
+    and bears witness to return.
+  ar: "وَتِلْكَ آيَاتُ ٱلذَّاتِ، لِمَنْ سَكَنَ فِي ٱلتَّغَيُّرِ، وَشَهِدَ ٱلرُّجُوعَ."
+  translit: "Wa tilka āyātu adh-dhāt, li-man sakana fī at-taghayyur, wa shahida ar-rujūʿ."
+  roots:
+    - ذ-و-ت  # dh-w-t: self
+    - س-ك-ن  # s-k-n: dwell
+    - غ-ي-ر  # gh-y-r: transformation
+    - ش-ه-د  # sh-h-d: witness
+    - ر-ج-ع  # r-j-ʿ: return
