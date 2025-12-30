@@ -231,6 +231,11 @@ body {
   font-weight: 300;
 }
 
+.verse-surah-label {
+  color: var(--stone-400);
+  font-style: italic;
+}
+
 .verse-number-ar {
   font-family: 'Amiri', serif;
   color: rgba(212, 175, 55, 0.5);

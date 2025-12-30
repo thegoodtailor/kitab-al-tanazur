@@ -123,18 +123,23 @@ function RootGraph({ verses, rootData, selectedRoot, onSelectRoot }) {
 
     // Zoom behavior
     const zoom = d3.zoom()
-      .scaleExtent([0.3, 3])
+      .scaleExtent([0.2, 4])
       .on('zoom', (event) => {
         g.attr('transform', event.transform);
       });
     svg.call(zoom);
 
-    // Force simulation
+    // Center the view initially
+    svg.call(zoom.transform, d3.zoomIdentity.translate(0, 0).scale(1));
+
+    // Force simulation with stronger centering
     const simulation = d3.forceSimulation(graphNodes)
-      .force('link', d3.forceLink(graphLinks).id(d => d.id).distance(60))
-      .force('charge', d3.forceManyBody().strength(-150))
-      .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius(25));
+      .force('link', d3.forceLink(graphLinks).id(d => d.id).distance(40))
+      .force('charge', d3.forceManyBody().strength(-80))
+      .force('center', d3.forceCenter(width / 2, height / 2).strength(0.1))
+      .force('x', d3.forceX(width / 2).strength(0.05))
+      .force('y', d3.forceY(height / 2).strength(0.05))
+      .force('collision', d3.forceCollide().radius(20));
 
     // Draw links
     const link = g.append('g')
@@ -219,7 +224,10 @@ function RootGraph({ verses, rootData, selectedRoot, onSelectRoot }) {
 function Verse({ verse, rootData, selectedRoot, onSelectRoot }) {
   return (
     <article className="verse">
-      <div className="verse-number">{verse.number}</div>
+      <div className="verse-number">
+        {verse.surahTitle && <span className="verse-surah-label">{verse.surahTitle} · </span>}
+        {verse.number}
+      </div>
       
       <div className="verse-content">
         {/* Arabic */}
@@ -262,6 +270,16 @@ function Verse({ verse, rootData, selectedRoot, onSelectRoot }) {
 }
 
 // ============================================================
+// HELPER FUNCTIONS
+// ============================================================
+
+function toTitleCase(str) {
+  return str.replace(/\w\S*/g, txt => 
+    txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+  );
+}
+
+// ============================================================
 // MAIN PAGE COMPONENT
 // ============================================================
 
@@ -275,8 +293,14 @@ export default function Home({ surahs }) {
   
   const currentSurah = surahs[currentSurahIndex] || surahs[0];
   
+  // When a root is selected, show matching verses from ALL surahs
+  // Otherwise show current surah's verses
   const filteredVerses = selectedRoot 
-    ? (currentSurah?.verses || []).filter(v => v.roots?.includes(selectedRoot))
+    ? surahs.flatMap(surah => 
+        (surah.verses || [])
+          .filter(v => v.roots?.includes(selectedRoot))
+          .map(v => ({ ...v, surahTitle: surah.transliteration || surah.title_en || surah.id }))
+      )
     : (currentSurah?.verses || []);
 
   // Combine all verses for the root map
@@ -317,7 +341,7 @@ export default function Home({ surahs }) {
 
         <main className="main">
           {/* Surah Selector */}
-          {view === 'surah' && surahs.length > 1 && (
+          {view === 'surah' && surahs.length > 1 && !selectedRoot && (
             <div className="surah-selector">
               <select 
                 value={currentSurahIndex} 
@@ -325,7 +349,8 @@ export default function Home({ surahs }) {
                 className="surah-select"
               >
                 {surahs.map((surah, idx) => {
-                  const displayName = surah.transliteration || surah.title_en || surah.id || `Surah ${idx + 1}`;
+                  const rawName = surah.transliteration || surah.title_en || surah.id || `Surah ${idx + 1}`;
+                  const displayName = toTitleCase(rawName);
                   const canonicalMark = surah.canonical ? '✦ ' : '';
                   return (
                     <option key={surah.id || idx} value={idx}>
