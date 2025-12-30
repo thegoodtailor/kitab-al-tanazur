@@ -108,6 +108,14 @@ function RootGraph({ verses, rootData, selectedRoot, onSelectRoot }) {
 
     if (graphNodes.length === 0) return;
 
+    // Set initial positions near center
+    graphNodes.forEach((node, i) => {
+      const angle = (2 * Math.PI * i) / graphNodes.length;
+      const radius = 100;
+      node.x = width / 2 + radius * Math.cos(angle);
+      node.y = height / 2 + radius * Math.sin(angle);
+    });
+
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
 
@@ -316,11 +324,15 @@ export default function Home({ surahs }) {
                 onChange={(e) => setCurrentSurahIndex(Number(e.target.value))}
                 className="surah-select"
               >
-                {surahs.map((surah, idx) => (
-                  <option key={surah.id || idx} value={idx}>
-                    {surah.title_ar || surah.transliteration || surah.title_en || `Surah ${idx + 1}`}
-                  </option>
-                ))}
+                {surahs.map((surah, idx) => {
+                  const displayName = surah.transliteration || surah.title_en || surah.id || `Surah ${idx + 1}`;
+                  const canonicalMark = surah.canonical ? '✦ ' : '';
+                  return (
+                    <option key={surah.id || idx} value={idx}>
+                      {canonicalMark}{displayName}
+                    </option>
+                  );
+                })}
               </select>
             </div>
           )}

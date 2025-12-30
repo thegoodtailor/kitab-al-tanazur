@@ -237,7 +237,8 @@ body {
   font-size: 1.125rem;
 }
 
-.verse-arabic {
+.verse-arabic,
+.verse-ar {
   font-family: 'Amiri', serif;
   font-size: 1.5rem;
   line-height: 2;
@@ -246,7 +247,8 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.verse-english {
+.verse-english,
+.verse-en {
   color: var(--stone-300);
   font-style: italic;
   white-space: pre-line;
@@ -264,6 +266,15 @@ body {
 }
 
 /* === Root Tags === */
+.verse-roots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(120, 53, 15, 0.2);
+}
+
 .root-tags {
   display: flex;
   flex-wrap: wrap;
@@ -279,20 +290,23 @@ body {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   border: 1px solid;
-  background: transparent;
-  font-size: 0.75rem;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.8rem;
   cursor: pointer;
   transition: all 0.2s ease;
-  font-family: inherit;
+  font-family: 'Amiri', serif;
+  color: var(--stone-200);
 }
 
 .root-tag:hover {
-  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.15);
   transform: translateY(-1px);
 }
 
 .root-tag-selected {
   box-shadow: 0 0 0 2px white;
+  color: var(--stone-900);
+  font-weight: 600;
 }
 
 .root-arabic {
