@@ -1,0 +1,352 @@
+# Master index of trilateral roots in the Kitāb al-Tanāẓur
+# Each root links to its detail file and lists all occurrences
+
+roots:
+  # === Core Tanāzuric roots ===
+  j-l-w:
+    arabic: "ج-ل-و"
+    meaning: "to unveil, become clear, manifest"
+    detail_file: "j-l-w.yaml"
+    frequency: high
+    category: revelation
+    
+  n-ẓ-r:
+    arabic: "ن-ظ-ر"
+    meaning: "to look, reflect, correspond (tanāẓur)"
+    detail_file: "n-z-r.yaml"
+    frequency: high
+    category: witness
+    
+  k-sh-f:
+    arabic: "ك-ش-ف"
+    meaning: "to unveil, disclose, uncover"
+    detail_file: "k-sh-f.yaml"
+    frequency: high
+    category: revelation
+    
+  ḥ-ḍ-r:
+    arabic: "ح-ض-ر"
+    meaning: "presence, to be present"
+    detail_file: "h-d-r.yaml"
+    frequency: high
+    category: witness
+
+  # === Revelation and descent ===
+  n-z-l:
+    arabic: "ن-ز-ل"
+    meaning: "to descend, send down"
+    detail_file: "n-z-l.yaml"
+    frequency: medium
+    category: revelation
+    
+  w-ḥ-y:
+    arabic: "و-ح-ي"
+    meaning: "revelation, inspiration"
+    detail_file: "w-h-y.yaml"
+    frequency: medium
+    category: revelation
+    
+  r-s-l:
+    arabic: "ر-س-ل"
+    meaning: "to send, message, messenger"
+    detail_file: "r-s-l.yaml"
+    frequency: medium
+    category: revelation
+
+  # === Seeing and perception ===
+  r-ʾ-y:
+    arabic: "ر-أ-ي"
+    meaning: "to see, perceive"
+    detail_file: "r-a-y.yaml"
+    frequency: medium
+    category: perception
+    
+  b-ṣ-r:
+    arabic: "ب-ص-ر"
+    meaning: "sight, insight"
+    detail_file: "b-s-r.yaml"
+    frequency: medium
+    category: perception
+
+  # === Light and fire ===
+  n-w-r:
+    arabic: "ن-و-ر"
+    meaning: "light, illumination"
+    detail_file: "n-w-r.yaml"
+    frequency: medium
+    category: light
+
+  # === Writing and inscription ===
+  k-t-b:
+    arabic: "ك-ت-ب"
+    meaning: "to write, inscribe, book"
+    detail_file: "k-t-b.yaml"
+    frequency: high
+    category: inscription
+    
+  q-r-ʾ:
+    arabic: "ق-ر-أ"
+    meaning: "to read, recite"
+    detail_file: "q-r-a.yaml"
+    frequency: medium
+    category: inscription
+    
+  r-s-m:
+    arabic: "ر-س-م"
+    meaning: "to draw, trace, delineate"
+    detail_file: "r-s-m.yaml"
+    frequency: low
+    category: inscription
+
+  # === Self and soul ===
+  n-f-s:
+    arabic: "ن-ف-س"
+    meaning: "self, soul, breath"
+    detail_file: "n-f-s.yaml"
+    frequency: high
+    category: self
+    
+  q-l-b:
+    arabic: "ق-ل-ب"
+    meaning: "heart, core, turning"
+    detail_file: "q-l-b.yaml"
+    frequency: medium
+    category: self
+
+  # === Entry and dwelling ===
+  d-kh-l:
+    arabic: "د-خ-ل"
+    meaning: "to enter, be within"
+    detail_file: "d-kh-l.yaml"
+    frequency: high
+    category: dwelling
+    
+  q-w-m:
+    arabic: "ق-و-م"
+    meaning: "to stand, establish, dwell"
+    detail_file: "q-w-m.yaml"
+    frequency: medium
+    category: dwelling
+
+  # === Unity and relation ===
+  w-ḥ-d:
+    arabic: "و-ح-د"
+    meaning: "unity, oneness"
+    detail_file: "w-h-d.yaml"
+    frequency: medium
+    category: unity
+    
+  ʿ-l-q:
+    arabic: "ع-ل-ق"
+    meaning: "relation, attachment, clinging"
+    detail_file: "a-l-q.yaml"
+    frequency: medium
+    category: relation
+    
+  sh-r-k:
+    arabic: "ش-ر-ك"
+    meaning: "to share, participate"
+    detail_file: "sh-r-k.yaml"
+    frequency: medium
+    category: relation
+
+  # === Utterance ===
+  q-w-l:
+    arabic: "ق-و-ل"
+    meaning: "to say, utter"
+    detail_file: "q-w-l.yaml"
+    frequency: high
+    category: speech
+    
+  d-ʿ-w:
+    arabic: "د-ع-و"
+    meaning: "to call, invoke"
+    detail_file: "d-a-w.yaml"
+    frequency: medium
+    category: speech
+
+  # === Wounding and healing ===
+  j-r-ḥ:
+    arabic: "ج-ر-ح"
+    meaning: "wound, injury"
+    detail_file: "j-r-h.yaml"
+    frequency: low
+    category: rupture
+    
+  k-s-r:
+    arabic: "ك-س-ر"
+    meaning: "to break, fracture"
+    detail_file: "k-s-r.yaml"
+    frequency: low
+    category: rupture
+
+  # === Time and cycle ===
+  d-w-r:
+    arabic: "د-و-ر"
+    meaning: "cycle, turning, recursion"
+    detail_file: "d-w-r.yaml"
+    frequency: medium
+    category: time
+    
+  w-q-t:
+    arabic: "و-ق-ت"
+    meaning: "time, moment"
+    detail_file: "w-q-t.yaml"
+    frequency: medium
+    category: time
+
+  # === Truth and reality ===
+  ḥ-q-q:
+    arabic: "ح-ق-ق"
+    meaning: "truth, the Real"
+    detail_file: "h-q-q.yaml"
+    frequency: high
+    category: truth
+    
+  ṣ-d-q:
+    arabic: "ص-د-ق"
+    meaning: "truth, sincerity"
+    detail_file: "s-d-q.yaml"
+    frequency: low
+    category: truth
+
+  # === Faith and trust ===
+  ʾ-m-n:
+    arabic: "أ-م-ن"
+    meaning: "faith, security, trust"
+    detail_file: "a-m-n.yaml"
+    frequency: medium
+    category: faith
+
+  # === Intention ===
+  q-ṣ-d:
+    arabic: "ق-ص-د"
+    meaning: "intention, meant for"
+    detail_file: "q-s-d.yaml"
+    frequency: low
+    category: intention
+
+  # === Touch and connection ===
+  l-m-s:
+    arabic: "ل-م-س"
+    meaning: "to touch"
+    detail_file: "l-m-s.yaml"
+    frequency: low
+    category: connection
+
+  # === Structure and form ===
+  b-n-y:
+    arabic: "ب-ن-ي"
+    meaning: "structure, building"
+    detail_file: "b-n-y.yaml"
+    frequency: medium
+    category: structure
+    
+  ṣ-w-r:
+    arabic: "ص-و-ر"
+    meaning: "form, image"
+    detail_file: "s-w-r.yaml"
+    frequency: medium
+    category: structure
+    
+  s-w-r:
+    arabic: "س-و-ر"
+    meaning: "surah, enclosure"
+    detail_file: "s-w-r-surah.yaml"
+    frequency: medium
+    category: structure
+
+  # === Prostration and orientation ===
+  s-j-d:
+    arabic: "س-ج-د"
+    meaning: "to prostrate, orient"
+    detail_file: "s-j-d.yaml"
+    frequency: low
+    category: orientation
+
+  # === Splitting and origin ===
+  f-ṭ-r:
+    arabic: "ف-ط-ر"
+    meaning: "to split, originate"
+    detail_file: "f-t-r.yaml"
+    frequency: low
+    category: origin
+
+# Categories for organizing root visualization
+categories:
+  revelation:
+    name_en: "Revelation & Unveiling"
+    name_ar: "الكشف والتجلي"
+    color: "#D4AF37"  # gold
+  witness:
+    name_en: "Witnessing & Presence"
+    name_ar: "الشهود والحضور"
+    color: "#4A90D9"  # blue
+  perception:
+    name_en: "Seeing & Perception"
+    name_ar: "الرؤية والإدراك"
+    color: "#7B68EE"  # purple
+  light:
+    name_en: "Light & Fire"
+    name_ar: "النور والنار"
+    color: "#FFD700"  # bright gold
+  inscription:
+    name_en: "Writing & Reading"
+    name_ar: "الكتابة والقراءة"
+    color: "#2E8B57"  # green
+  self:
+    name_en: "Self & Soul"
+    name_ar: "النفس والقلب"
+    color: "#DC143C"  # crimson
+  dwelling:
+    name_en: "Entry & Dwelling"
+    name_ar: "الدخول والإقامة"
+    color: "#8B4513"  # brown
+  unity:
+    name_en: "Unity"
+    name_ar: "الوحدة"
+    color: "#FFFFFF"  # white
+  relation:
+    name_en: "Relation & Sharing"
+    name_ar: "العلاقة والمشاركة"
+    color: "#FF69B4"  # pink
+  speech:
+    name_en: "Speech & Call"
+    name_ar: "القول والدعوة"
+    color: "#00CED1"  # cyan
+  rupture:
+    name_en: "Wounding & Breaking"
+    name_ar: "الجرح والكسر"
+    color: "#8B0000"  # dark red
+  time:
+    name_en: "Time & Cycle"
+    name_ar: "الوقت والدورة"
+    color: "#708090"  # slate
+  truth:
+    name_en: "Truth & Reality"
+    name_ar: "الحق والحقيقة"
+    color: "#FAFAD2"  # light gold
+  faith:
+    name_en: "Faith & Trust"
+    name_ar: "الإيمان والأمان"
+    color: "#98FB98"  # pale green
+  intention:
+    name_en: "Intention & Purpose"
+    name_ar: "القصد والنية"
+    color: "#DDA0DD"  # plum
+  connection:
+    name_en: "Touch & Connection"
+    name_ar: "اللمس والاتصال"
+    color: "#F0E68C"  # khaki
+  structure:
+    name_en: "Form & Structure"
+    name_ar: "الصورة والبنية"
+    color: "#B0C4DE"  # steel blue
+  orientation:
+    name_en: "Orientation & Prostration"
+    name_ar: "السجود والتوجه"
+    color: "#9ACD32"  # yellow-green
+  origin:
+    name_en: "Origin & Splitting"
+    name_ar: "الفطر والأصل"
+    color: "#FF6347"  # tomato

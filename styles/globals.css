@@ -1,0 +1,418 @@
+/* ============================================================
+   KITĀB AL-TANĀẒUR — Global Styles
+   ============================================================ */
+
+/* === Reset & Base === */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gold: #D4AF37;
+  --gold-dim: #B8962A;
+  --stone-50: #fafaf9;
+  --stone-100: #f5f5f4;
+  --stone-200: #e7e5e4;
+  --stone-300: #d6d3d1;
+  --stone-400: #a8a29e;
+  --stone-500: #78716c;
+  --stone-600: #57534e;
+  --stone-700: #44403c;
+  --stone-800: #292524;
+  --stone-900: #1c1917;
+  --stone-950: #0c0a09;
+  --amber-100: #fef3c7;
+  --amber-200: #fde68a;
+  --amber-400: #fbbf24;
+  --amber-500: #f59e0b;
+  --amber-900: #78350f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  background: linear-gradient(to bottom, var(--stone-950), var(--stone-900), var(--stone-950));
+  color: var(--stone-100);
+  min-height: 100vh;
+  line-height: 1.7;
+}
+
+/* === Container === */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* === Header === */
+.header {
+  text-align: center;
+  padding: 3rem 0 2rem;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  position: relative;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 40px,
+    rgba(212, 175, 55, 0.1) 40px,
+    rgba(212, 175, 55, 0.1) 41px
+  );
+  pointer-events: none;
+}
+
+.header-bismillah {
+  color: rgba(212, 175, 55, 0.5);
+  font-size: 0.875rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  font-family: 'Amiri', serif;
+}
+
+.header-title-ar {
+  font-family: 'Amiri', serif;
+  font-size: 3rem;
+  color: var(--amber-100);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.header-title-en {
+  font-size: 1.25rem;
+  color: var(--stone-400);
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* === Navigation === */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.nav-button {
+  background: transparent;
+  border: none;
+  color: var(--stone-500);
+  font-family: inherit;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-button:hover {
+  color: var(--stone-300);
+}
+
+.nav-button-active {
+  color: var(--gold);
+  border-bottom: 2px solid var(--gold);
+}
+
+/* === Main === */
+.main {
+  padding: 3rem 0;
+}
+
+/* === Surah Header === */
+.surah-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.surah-title-ar {
+  font-family: 'Amiri', serif;
+  font-size: 2.25rem;
+  color: var(--amber-200);
+  margin-bottom: 0.5rem;
+}
+
+.surah-title-en {
+  color: var(--stone-400);
+  font-style: italic;
+}
+
+/* === Filter Indicator === */
+.filter-indicator {
+  background: rgba(120, 53, 15, 0.2);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filter-label {
+  color: var(--gold);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.filter-root-ar {
+  font-family: 'Amiri', serif;
+  font-size: 1.25rem;
+  color: var(--amber-100);
+  margin-left: 0.75rem;
+}
+
+.filter-root-meaning {
+  color: var(--stone-400);
+  margin-left: 0.5rem;
+}
+
+.filter-clear {
+  background: transparent;
+  border: none;
+  color: var(--gold);
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: color 0.2s;
+}
+
+.filter-clear:hover {
+  color: var(--amber-200);
+}
+
+/* === Verses === */
+.verses-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.verse {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(120, 53, 15, 0.2);
+  background: rgba(28, 25, 23, 0.3);
+  transition: all 0.3s ease;
+}
+
+.verse-highlighted {
+  border-color: rgba(212, 175, 55, 0.5);
+  background: rgba(120, 53, 15, 0.15);
+}
+
+.verse-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.verse-number {
+  color: var(--gold);
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.verse-number-ar {
+  font-family: 'Amiri', serif;
+  color: rgba(212, 175, 55, 0.5);
+  font-size: 1.125rem;
+}
+
+.verse-arabic {
+  font-family: 'Amiri', serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: var(--amber-100);
+  text-align: right;
+  margin-bottom: 1.5rem;
+}
+
+.verse-english {
+  color: var(--stone-300);
+  font-style: italic;
+  white-space: pre-line;
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+.verse-translit {
+  color: var(--stone-500);
+  font-size: 0.875rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(120, 53, 15, 0.2);
+}
+
+/* === Root Tags === */
+.root-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(120, 53, 15, 0.2);
+}
+
+.root-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid;
+  background: transparent;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.root-tag:hover {
+  opacity: 0.8;
+  transform: translateY(-1px);
+}
+
+.root-tag-selected {
+  box-shadow: 0 0 0 2px white;
+}
+
+.root-arabic {
+  font-family: 'Amiri', serif;
+  font-size: 0.875rem;
+}
+
+.root-divider {
+  margin: 0 0.35rem;
+  opacity: 0.5;
+}
+
+.root-meaning {
+  font-size: 0.7rem;
+}
+
+/* === Root Map === */
+.root-map-container {
+  text-align: center;
+}
+
+.root-map-title {
+  color: var(--gold);
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.root-map-caption {
+  color: var(--stone-500);
+  font-size: 0.875rem;
+  max-width: 500px;
+  margin: 1rem auto 0;
+}
+
+/* === About === */
+.about-container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.about-container h3 {
+  color: var(--gold);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.about-container h4 {
+  color: var(--amber-200);
+  font-size: 1.125rem;
+  margin: 2rem 0 0.75rem;
+  font-weight: 400;
+}
+
+.about-container p {
+  color: var(--stone-300);
+  margin-bottom: 1rem;
+}
+
+.about-container ul {
+  color: var(--stone-300);
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-container li {
+  margin-bottom: 0.5rem;
+}
+
+.about-container a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+}
+
+/* === Footer === */
+.footer {
+  text-align: center;
+  padding: 4rem 0 2rem;
+  border-top: 1px solid rgba(120, 53, 15, 0.2);
+  margin-top: 4rem;
+}
+
+.footer-ar {
+  font-family: 'Amiri', serif;
+  font-size: 1.125rem;
+  color: rgba(120, 53, 15, 0.5);
+  margin-bottom: 0.5rem;
+}
+
+.footer-en {
+  font-style: italic;
+  color: var(--stone-600);
+  font-size: 0.875rem;
+}
+
+/* === Responsive === */
+@media (max-width: 640px) {
+  .header-title-ar {
+    font-size: 2rem;
+  }
+  
+  .verse-arabic {
+    font-size: 1.25rem;
+  }
+  
+  .nav {
+    gap: 0.5rem;
+  }
+  
+  .nav-button {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+  }
+  
+  .filter-indicator {
+    flex-direction: column;
+    text-align: center;
+  }
+}

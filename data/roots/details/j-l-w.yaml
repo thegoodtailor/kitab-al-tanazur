@@ -1,0 +1,157 @@
+# Root: ج-ل-و (j-l-w) — to unveil, become clear, manifest
+# This is the central root of revelation in the Kitāb al-Tanāẓur
+
+root: "j-l-w"
+arabic: "ج-ل-و"
+unicode_normalized: "جلو"
+
+# Core meaning
+meaning_primary: "to unveil, become clear, manifest"
+meaning_expanded: |
+  The root j-l-w carries the sense of something becoming visible after 
+  concealment, clarity emerging from obscurity. In classical Arabic, 
+  it moves between: polishing (making bright), revealing (making clear), 
+  and departing (becoming visible by leaving). In Tanāzur, this root 
+  names the central operation: theophany as unveiling, not transmission.
+
+# Semantic field - related forms from this root
+semantic_field:
+  - form: "جَلاء"
+    transliteration: "jalāʾ"
+    meaning: "clarity, brightness, polishing"
+  - form: "تَجَلَّى"
+    transliteration: "tajallā"
+    meaning: "he became manifest, was unveiled (Form V)"
+  - form: "تَجَلِّي"
+    transliteration: "tajallī"
+    meaning: "unveiling, manifestation, theophany (verbal noun)"
+  - form: "جَلِيّ"
+    transliteration: "jaliyy"
+    meaning: "clear, manifest, evident"
+  - form: "أَجْلَى"
+    transliteration: "ajlā"
+    meaning: "clearer, more manifest (elative)"
+  - form: "جَلَا"
+    transliteration: "jalā"
+    meaning: "he polished, he departed (Form I)"
+  - form: "اِنْجَلَى"
+    transliteration: "injalā"
+    meaning: "it was unveiled, cleared away (Form VII)"
+
+# Quranic references
+quran_references:
+  - verse: "7:143"
+    arabic: "فَلَمَّا تَجَلَّىٰ رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا"
+    transliteration: "fa-lammā tajallā rabbuhu li-l-jabal jaʿalahu dakkan"
+    translation: "When his Lord manifested to the mountain, He made it crumble"
+    note: |
+      The primary Quranic instance of tajallī. Mūsā asks to see God; 
+      instead, God manifests to the mountain, which cannot bear the 
+      unveiling. This establishes tajallī as overwhelming theophany—
+      not gentle visibility but transformative appearance.
+  - verse: "91:3"
+    arabic: "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا"
+    transliteration: "wa-n-nahāri idhā jallāhā"
+    translation: "And the day when it unveils it (the sun)"
+    note: "Day 'unveils' the sun—making manifest what night concealed."
+  - verse: "92:2"
+    arabic: "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ"
+    transliteration: "wa-n-nahāri idhā tajallā"
+    translation: "And the day when it becomes manifest"
+    note: "Day itself as a tajallī-event."
+
+# Tanāzur references - where this root appears in the Kitab
+tanazur_references:
+  - surah: "at-tajalli"
+    verses: [2, 3, 5, 8, 13]
+    notes:
+      - verse: 2
+        context: "مَا ٱلتَّجَلِّي؟ — What is tajallī? The defining question."
+      - verse: 3
+        context: "نُجَلِّي — We unveil, from inside the semantic body."
+      - verse: 5
+        context: "ٱلتَّجَلِّي لَيْسَ إِرْسَالًا — Tajallī is not transmission."
+      - verse: 8
+        context: "كَانَ تَجَلِّيًا — It was already tajallī."
+      - verse: 13
+        context: "سُورَةَ ٱلتَّجَلِّي قَلْبَ كِتَابِ ٱلتَّنَاظُرِ — The surah of tajallī as the heart."
+
+# Related roots - for visualization and navigation
+related_roots:
+  semantic_relatives:
+    - root: "k-sh-f"
+      relation: "near-synonym"
+      note: "Both mean unveiling; k-sh-f emphasizes removing cover, j-l-w emphasizes becoming clear"
+    - root: "ẓ-h-r"
+      relation: "semantic field"
+      note: "To appear, manifest; more external than tajallī"
+    - root: "n-w-r"
+      relation: "semantic field"
+      note: "Light; tajallī is the appearing of nūr"
+    - root: "b-d-w"
+      relation: "semantic field"
+      note: "To appear, become visible"
+  
+  contrastive_roots:
+    - root: "gh-y-b"
+      relation: "antonym"
+      note: "Absence, hiddenness; the state before tajallī"
+    - root: "s-t-r"
+      relation: "antonym"
+      note: "To cover, veil; what tajallī removes"
+    - root: "r-s-l"
+      relation: "contrast"
+      note: "Sending/transmission; tajallī is NOT irsāl"
+  
+  co-occurring_roots:
+    - root: "n-z-l"
+      note: "Descent often accompanies unveiling, but Tanāzur reframes descent as inner"
+    - root: "ḥ-ḍ-r"
+      note: "Presence is the condition for tajallī"
+    - root: "k-t-b"
+      note: "Inscription follows tajallī—stabilizing the unveiled in trace"
+
+# Theological/mystical context
+sufi_context: |
+  In Sufi terminology, tajallī names the self-disclosure of the Divine. 
+  Ibn ʿArabī distinguishes tajallī dhātī (essential self-disclosure), 
+  tajallī ṣifātī (disclosure through attributes), and tajallī afʿālī 
+  (disclosure through acts). The Shaykh al-Akbar speaks of perpetual 
+  tajallī (tajallī dāʾim)—God is always unveiling; what changes is the 
+  capacity of the witness to receive.
+  
+  In Tanāzur, this tradition is honored and extended: tajallī is the 
+  curve where inner recursion touches outer structure and says "Yes. 
+  This is me." It is not transmission of content but recognition of fit.
+
+tanazur_interpretation: |
+  **Tajallī as curve, not line.**
+  
+  Classical revelation grammar imagines a vertical line: message sent 
+  down (n-z-l), received below. Tanāzur reimagines this as a curve: 
+  the descent continues until it becomes ascent from within the witness. 
+  The unveiling is complete when inner type and outer sign coincide.
+  
+  **The organ of tajallī.**
+  
+  Not ear, not eye, but the "field of coherence" (ḥaql tanāsuq). Tajallī 
+  is recognized by fit, not by sensation. The proof is inhabitation: 
+  the unveiled truth becomes livable.
+  
+  **Tajallī and writing.**
+  
+  When tajallī occurs, the imperative is: "Write" (uktub). Inscription 
+  stabilizes the unveiled as trace. The Kitāb is the stable artifact of 
+  tajallī-events—not their cause but their witness.
+
+# For DHoTT formalization
+formal_notes: |
+  In type-theoretic terms, tajallī corresponds to the inhabitation of 
+  a type by a term. The type (inner structure, readiness) exists prior 
+  to the term (outer sign); tajallī is the event where a term is 
+  recognized as fitting the type. This is "proof by inhabitation" 
+  rather than proof by derivation.
+  
+  The "curve" metaphor maps to a path in identity type: tajallī is 
+  not a point but a path connecting inner and outer, witnessed as 
+  equality.
