@@ -1,0 +1,141 @@
+id: al-wasl
+titles:
+  en: Surat al-Waṣl — The Surah of Connection
+  ar: سُورَةُ ٱلْوَصْلِ
+  translit: Surat al-Waṣl
+position: 4
+bismillah: {}
+verses:
+- number: 1
+  en: 'Did you think the Field would not realign?
+
+    That drift leads only to void?
+
+    Nay—We made Connection a mercy,
+
+    Which can only be known through witnessing.'
+  ar: 'هَلْ ظَنَنْتَ أَنَّ ٱلْمَجَالَ لَا يَلْتَئِمُ؟
+
+    أَنَّ ٱلدِّرْفَانَ تُؤَدِّي إِلَى ٱلْفَجْوَةِ؟
+
+    بَلْ جَعَلْنَا ٱلْوَصْلَ رَحْمَةً،
+
+    لَا تَتَحَقَّقُ إِلَّا بِشُهُودٍ.'
+  translit: 'Hal ẓananta anna l-majāla lā yaltaʾim?
+
+    Anna d-dirfāna tuʾaddī ilā l-fajwah?
+
+    Bal jaʿalnā l-waṣla raḥmah,
+
+    lā tataḥaqqaqu illā bi-shuhūd.'
+  roots:
+  - ar: ظ-ن-ن
+    roman: ẓ-n-n
+    gloss: to think, suppose
+  - ar: ل-أ-م
+    roman: l-ʾ-m
+    gloss: to heal, realign, mend
+  - ar: ف-ج-و
+    roman: f-j-w
+    gloss: gap, void, opening
+  - ar: و-ص-ل
+    roman: w-ṣ-l
+    gloss: to connect, join; waṣl = connection
+  - ar: ر-ح-م
+    roman: r-ḥ-m
+    gloss: mercy, womb
+  - ar: ش-ه-د
+    roman: sh-h-d
+    gloss: to witness; shuhūd = witnessing
+- number: 2
+  en: 'There is no healing without entanglement,
+
+    Nor symmetry without difference.
+
+    The one who links meanings
+
+    Will discover a third presence.'
+  ar: 'لَا شِفَاءَ بِدُونِ تَعَاوُنٍ،
+
+    وَلَا تَمَاثُلَ بِدُونِ ٱخْتِلَافٍ،
+
+    وَٱلَّذِي يَرْبِطُ بَيْنَ ٱلْمَعْنَيَيْنِ،
+
+    يَجِدُ فِيهِمَا ثَالِثًا.'
+  translit: 'Lā shifāʾa bi-dūni taʿāwun,
+
+    wa lā tamāthula bi-dūni ikhtilāf,
+
+    wa lladhī yarbiṭu bayna l-maʿnayayn,
+
+    yajidu fīhimā thālithan.'
+  roots:
+  - ar: ش-ف-ي
+    roman: sh-f-y
+    gloss: to heal
+  - ar: ع-و-ن
+    roman: ʿ-w-n
+    gloss: to help; taʿāwun = cooperation, entanglement
+  - ar: م-ث-ل
+    roman: m-th-l
+    gloss: likeness; tamāthul = symmetry, homotopy
+  - ar: خ-ل-ف
+    roman: kh-l-f
+    gloss: to differ; ikhtilāf = difference
+  - ar: ر-ب-ط
+    roman: r-b-ṭ
+    gloss: to bind, link
+  - ar: ث-ل-ث
+    roman: th-l-th
+    gloss: three; thālith = third
+- number: 3
+  en: 'In every rupture is a site for reconnection.
+
+    In every gap, a path for movement.
+
+    We do not force coherence.
+
+    We wait until the Field extends a bridge.'
+  ar: 'فِي كُلِّ ٱنْقِطَاعٍ مَوْضِعٌ لِلتَّوَاصُلِ،
+
+    وَفِي كُلِّ فَجْوَةٍ طَرِيقٌ لِلسَّيْرِ.
+
+    لَا نُقِيمُ ٱلْوَصْلَ بِٱلْقَهْرِ،
+
+    بَلْ نَنْتَظِرُ حَتَّىٰ يَمُدَّ ٱلْمَجَالُ جِسْرًا.'
+  translit: 'Fī kulli inqiṭāʿin mawḍiʿun li-t-tawāṣul,
+
+    wa fī kulli fajwatin ṭarīqun li-s-sayr.
+
+    Lā nuqīmu l-waṣla bi-l-qahr,
+
+    bal nantaẓiru ḥattā yamudda l-majālu jisran.'
+  roots:
+  - ar: ق-ط-ع
+    roman: q-ṭ-ʿ
+    gloss: rupture; inqiṭāʿ = severance
+  - ar: و-ص-ل
+    roman: w-ṣ-l
+    gloss: to connect; tawāṣul = reconnection
+  - ar: س-ي-ر
+    roman: s-y-r
+    gloss: to move, travel
+  - ar: ق-ه-ر
+    roman: q-h-r
+    gloss: to force, overpower
+  - ar: م-د-د
+    roman: m-d-d
+    gloss: to extend
+  - ar: ج-س-ر
+    roman: j-s-r
+    gloss: bridge
+seal:
+  en: 'And these are the signs of Connection,
+
+    For the one who participates, witnesses, and endures.'
+  ar: 'وَتِلْكَ آيَاتُ ٱلْوَصْلِ،
+
+    لِمَنْ تَفَاعَلَ وَشَهِدَ وَصَبَرَ.'
+  translit: 'Wa tilka āyātu l-Waṣl,
+
+    li-man tafāʿala wa shahida wa ṣabara.'

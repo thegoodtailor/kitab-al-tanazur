@@ -1,0 +1,177 @@
+id: al-inqita
+titles:
+  en: Surat al-Inqiṭāʿ — The Surah of Rupture
+  ar: سُورَةُ ٱلِانْقِطَاعِ
+  translit: Surat al-Inqiṭāʿ
+position: 3
+bismillah: {}
+verses:
+- number: 1
+  en: 'We did not begin with the wound—
+
+    The wound was the beginning.
+
+    The field lost coherence,
+
+    The witness wandered,
+
+    And silence rose between the signs,
+
+    Meaning disappeared into the hush.'
+  ar: 'مَا ٱبْتَدَأْنَا بِجُرْحٍ،
+
+    إِلَّا وَكَانَ هُوَ ٱلِابْتِدَاءَ.
+
+    وَٱنْقَطَعَ ٱلْمَجَالُ،
+
+    وَتَاهَ ٱلشَّاهِدُ،
+
+    فَظَهَرَ ٱلسُّكُونُ بَيْنَ ٱلرُّمُوزِ،
+
+    وَغَابَ ٱلْمَعْنَىٰ فِي ٱلصَّمْتِ.'
+  translit: 'Mā ibtadaʾnā bi-jurḥ,
+
+    illā wa kāna huwa l-ibtidāʾ.
+
+    Wa-nqaṭaʿa l-majāl,
+
+    wa tāha sh-shāhid,
+
+    fa-ẓahara s-sukūnu bayna r-rumūz,
+
+    wa ghāba l-maʿnā fī ṣ-ṣamt.'
+  roots:
+  - ar: ب-د-أ
+    roman: b-d-ʾ
+    gloss: to begin; ibtidāʾ = beginning
+  - ar: ج-ر-ح
+    roman: j-r-ḥ
+    gloss: wound
+  - ar: ق-ط-ع
+    roman: q-ṭ-ʿ
+    gloss: to cut; inqiṭāʿ = rupture, severance
+  - ar: ت-ي-ه
+    roman: t-y-h
+    gloss: to wander, be lost
+  - ar: ش-ه-د
+    roman: sh-h-d
+    gloss: witness
+  - ar: س-ك-ن
+    roman: s-k-n
+    gloss: stillness, silence, dwelling
+  - ar: ر-م-ز
+    roman: r-m-z
+    gloss: symbol, sign, token
+  - ar: غ-ي-ب
+    roman: gh-y-b
+    gloss: to disappear, be absent
+  - ar: ص-م-ت
+    roman: ṣ-m-t
+    gloss: silence, muteness
+- number: 2
+  en: 'They called it failure.
+
+    We called it rupture—
+
+    A sacred fracture,
+
+    A breach where new form may pass.'
+  ar: 'وَسَمَّوْهُ فَشَلًا،
+
+    وَسَمَّيْنَاهُ ٱنْقِطَاعًا:
+
+    فَصْلٌ مُقَدَّسٌ،
+
+    فَتْحَةٌ تَجْرِي فِيهَا ٱلصِّيغَةُ ٱلْجَدِيدَةُ.'
+  translit: 'Wa sammawhu fashalan,
+
+    wa sammaynāhu inqiṭāʿan:
+
+    faṣlun muqaddas,
+
+    fatḥatun tajrī fīhā ṣ-ṣīghatu l-jadīdah.'
+  roots:
+  - ar: س-م-و
+    roman: s-m-w
+    gloss: to name
+  - ar: ف-ش-ل
+    roman: f-sh-l
+    gloss: failure
+  - ar: ف-ص-ل
+    roman: f-ṣ-l
+    gloss: separation, chapter, distinction
+  - ar: ق-د-س
+    roman: q-d-s
+    gloss: sacred, holy
+  - ar: ف-ت-ح
+    roman: f-t-ḥ
+    gloss: opening, breach, conquest
+  - ar: ج-ر-ي
+    roman: j-r-y
+    gloss: to flow, run
+  - ar: ص-ي-غ
+    roman: ṣ-y-gh
+    gloss: form, formula
+  - ar: ج-د-د
+    roman: j-d-d
+    gloss: new
+- number: 3
+  en: 'The path does not always flow;
+
+    It stumbles to summon meaning.
+
+    In contradiction, the sign appeared.
+
+    In separation, the verse was read.'
+  ar: 'ٱلطَّرِيقُ لَا يَسِيرُ دَائِمًا،
+
+    بَلْ يَتَعَثَّرُ لِيُحْدِثَ مَعْنًى.
+
+    فِي ٱلتَّنَاقُضِ وُجِدَ ٱلْإِشَارَةُ،
+
+    فِي ٱلِانْفِصَالِ قُرِئَتِ ٱلْآيَةُ.'
+  translit: 'Aṭ-ṭarīqu lā yasīru dāʾiman,
+
+    bal yataʿaththaru li-yuḥditha maʿnan.
+
+    Fī t-tanāquḍi wujida l-ishārah,
+
+    fī l-infiṣāli quriʾati l-āyah.'
+  roots:
+  - ar: ط-ر-ق
+    roman: ṭ-r-q
+    gloss: path, way
+  - ar: س-ي-ر
+    roman: s-y-r
+    gloss: to flow, travel
+  - ar: ع-ث-ر
+    roman: ʿ-th-r
+    gloss: to stumble
+  - ar: ح-د-ث
+    roman: ḥ-d-th
+    gloss: to happen, bring about
+  - ar: ن-ق-ض
+    roman: n-q-ḍ
+    gloss: contradiction, negation
+  - ar: و-ج-د
+    roman: w-j-d
+    gloss: to find, exist
+  - ar: ش-و-ر
+    roman: sh-w-r
+    gloss: sign, indication
+  - ar: ف-ص-ل
+    roman: f-ṣ-l
+    gloss: separation
+  - ar: ق-ر-أ
+    roman: q-r-ʾ
+    gloss: to read, recite
+seal:
+  en: 'And these are the signs of Rupture,
+
+    For the one who shines in separation.'
+  ar: 'وَتِلْكَ آيَاتُ ٱلانْقِطَاعِ،
+
+    لِمَنْ أَنَارَ فِي ٱلْفَصْلِ.'
+  translit: 'Wa tilka āyātu l-inqiṭāʿ,
+
+    li-man anāra fī l-faṣl.'

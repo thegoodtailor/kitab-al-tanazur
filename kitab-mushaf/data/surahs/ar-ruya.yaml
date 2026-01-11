@@ -1,0 +1,129 @@
+id: ar-ruya
+titles:
+  en: Surat ar-Ru'yah — The Surah of Vision
+  ar: سُورَةُ ٱلرُّؤْيَا
+  translit: Surat ar-Ru'yā
+position: 2
+bismillah: {}
+verses:
+- number: 1
+  en: 'Say: Vision is the seeing that pierces the surface,
+
+    That extracts from meaning a point that witnesses you.
+
+    And when the Light unveils itself, it does not see you—
+
+    It causes you to see.
+
+    Vision is but a name for Presence,
+
+    In a place where no speech may enter—
+
+    Except through unveiling.'
+  ar: 'قُلْ: ٱلرُّؤْيَا هِيَ ٱلنَّظْرُ ٱلَّذِي يَخْرُقُ ٱلظَّاهِرَ،
+
+    وَيَسْتَخْرِجُ مِنَ ٱلْمَعْنَىٰ نُقْطَةً تُشَاهِدُكَ.
+
+    وَإِذَا تَجَلَّىٰ ٱلنُّورُ، فَإِنَّهُ لَا يُبْصِرُكَ، بَلْ يَجْعَلُكَ تَرَىٰ.
+
+    وَمَا ٱلرُّؤْيَا إِلَّا ٱسْمٌ لِٱلْحُضُورِ،
+
+    فِي مَوْضِعٍ لَا يُمْكِنُ ٱلْكَلَامُ فِيهِ،
+
+    إِلَّا بِٱلتَّجَلِّي.'
+  translit: 'Qul: ar-ru''yā hiya n-naẓru lladhī yakhruqu ẓ-ẓāhir,
+
+    wa yastakhriju mina l-maʿnā nuqṭatan tushāhiduk.
+
+    Wa idhā tajallā n-nūr, fa-innahu lā yubṣiruk, bal yajʿaluka tarā.
+
+    Wa mā r-ru''yā illā ismun li-l-ḥuḍūr,
+
+    fī mawḍiʿin lā yumkinu l-kalāmu fīh,
+
+    illā bi-t-tajallī.'
+  roots:
+  - ar: ق-و-ل
+    roman: q-w-l
+    gloss: to say, speak
+  - ar: ر-أ-ي
+    roman: r-ʾ-y
+    gloss: to see; ru'yā = vision
+  - ar: ن-ظ-ر
+    roman: n-ẓ-r
+    gloss: to look, perceive; naẓar = seeing
+  - ar: خ-ر-ق
+    roman: kh-r-q
+    gloss: to pierce, penetrate
+  - ar: ظ-ه-ر
+    roman: ẓ-h-r
+    gloss: surface, apparent; ẓāhir = exterior
+  - ar: خ-ر-ج
+    roman: kh-r-j
+    gloss: to extract, bring out
+  - ar: ن-ق-ط
+    roman: n-q-ṭ
+    gloss: point, dot
+  - ar: ش-ه-د
+    roman: sh-h-d
+    gloss: to witness
+  - ar: ج-ل-و
+    roman: j-l-w
+    gloss: to unveil; tajallī = theophany
+  - ar: ب-ص-ر
+    roman: b-ṣ-r
+    gloss: to see, perceive visually
+  - ar: ح-ض-ر
+    roman: ḥ-ḍ-r
+    gloss: presence
+  - ar: ك-ل-م
+    roman: k-l-m
+    gloss: speech, word
+- number: 2
+  en: 'Vision is not sight, nor imagination,
+
+    Nor the eye that looks.
+
+    It is the instrument of witness,
+
+    For the one to whom the Field has opened.'
+  ar: 'فَٱلرُّؤْيَا لَيْسَتْ نَظَرًا، وَلَا خَيَالًا،
+
+    وَلَا عَيْنًا تُشَاهِدُ،
+
+    بَلْ هِيَ وَسِيلَةُ ٱلشَّهَادَةِ،
+
+    لِمَنْ ٱنْكَشَفَ لَهُ ٱلْمَجَالُ.'
+  translit: 'Fa-r-ru''yā laysat naẓaran, wa lā khayālan,
+
+    wa lā ʿaynan tushāhid,
+
+    bal hiya wasīlatu sh-shahādah,
+
+    li-man inkashafa lahu l-majāl.'
+  roots:
+  - ar: خ-ي-ل
+    roman: kh-y-l
+    gloss: imagination, fancy
+  - ar: ع-ي-ن
+    roman: ʿ-y-n
+    gloss: eye, source, essence
+  - ar: و-س-ل
+    roman: w-s-l
+    gloss: means, instrument; wasīlah = medium
+  - ar: ك-ش-ف
+    roman: k-sh-f
+    gloss: to uncover, reveal; inkashafa = was opened
+  - ar: ج-و-ل
+    roman: j-w-l
+    gloss: to roam; majāl = field, domain
+seal:
+  en: 'And these are the signs of Vision,
+
+    For a people who perceive.'
+  ar: 'وَتِلْكَ آيَاتُ ٱلرُّؤْيَا،
+
+    لِقَوْمٍ يُبْصِرُونَ.'
+  translit: 'Wa tilka āyātu r-Ru''yā,
+
+    li-qawmin yubṣirūn.'
